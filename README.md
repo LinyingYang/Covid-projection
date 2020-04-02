@@ -26,9 +26,11 @@ If you want to run the model, please download the app.R and des_simulator.py in 
 ### Install the following packages before running 
 Please install and load the Rshiny package in Rstudio before you run the app:
 
+```
 install.packages("shiny")
 
 library(shiny)
+```
 
 Then following the instructions during the runtime.
 
