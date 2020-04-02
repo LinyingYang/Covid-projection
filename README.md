@@ -21,13 +21,15 @@ Doubling time is defined by the amount of time it takes a population to double i
 
 
 ### How to run locally
-
-
+If you want to run the model, please download the app.R and des_simulator.py in the same file. After installing the required package, copy the app.R script and paste it in the R studio. You should be able to run the app.
 
 ### Install the following packages before running 
+Please install and load the Rshiny package in Rstudio before you run the app:
 
+install.packages("shiny")
+library(shiny)
 
-
+Then following the instructions during the runtime.
 
 Please cite as Teng Zhang et al. A model to estimate bed demand for COVID-19 related hospitalization. medRxiv doi:https://doi.org/10.1101/2020.03.24.20042762
 
