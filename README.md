@@ -1,5 +1,8 @@
 # Covid-projection
 
+This repo contains the source code for the [Hospital Bed Demand Model](https://surf.stanford.edu/covid-19-tools/covid-19-hospital-projections/) by Stanford SURF Group and Stanford Medicine.
+
+
 This model is designed to facilitate hospital planning with estimates of the daily number of Intensive Care (IC) beds, Acute Care (AC) beds, and ventilators necessary to accommodate patients who require hospitalization for COVID-19 and how these compare to the available resources. To use the model, input estimates of the characteristics of the patient population and hospital capacity.
 
 The first day of the simulation (Day 0) is fixed. For each subsequent day the model uses the projected number of new COVID-19 patients, partitions the patients into different cohorts, and updates the number of COVID-19 patients requiring IC and AC beds as follows:
